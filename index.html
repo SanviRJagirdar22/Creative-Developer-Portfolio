@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Sanvi | Computer Science Engineering Portfolio</title>
+
+    <meta name="description"
+        content="Sanvi's portfolio showcasing computer science, web development, Python, JavaScript, and creative technology projects.">
+
+    <meta name="keywords"
+        content="Sanvi, Computer Science, Engineering, Web Development, Python, JavaScript, Portfolio">
+
+    <meta name="author" content="Sanvi">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo" aria-label="Go to home page">
+                Sanvi<span>.</span>
+            </a>
+
+            <!-- Mobile menu button -->
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNav">
+                ☰
+            </button>
+
+            <!-- Semantic navigation -->
+            <nav
+                id="mainNav"
+                class="navigation"
+                aria-label="Main navigation">
+
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- ================= HOME ================= -->
+
+        <section id="home" class="hero">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="intro-text">
+                        Hello, I'm
+                    </p>
+
+                    <h1>
+                        Sanvi
+                    </h1>
+
+                    <h2>
+                        Computer Science Engineering Student
+                    </h2>
+
+                    <p class="hero-description">
+                        I create websites, applications, and technology
+                        projects that combine creativity with practical
+                        problem-solving.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="button primary-button">
+                            View My Projects
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="button secondary-button">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Accessible image -->
+                <figure class="hero-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+                        alt="Laptop displaying HTML and CSS code on a desk">
+
+                    <figcaption>
+                        Creating digital experiences with code.
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section about-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Get to know me
+                    </p>
+
+                    <h2>
+                        About Me
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <figure class="about-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
+                            alt="Student working on a laptop while developing a project">
+
+                        <figcaption>
+                            Learning and developing new technology projects.
+                        </figcaption>
+
+                    </figure>
+
+
+                    <article class="about-content">
+
+                        <h3>
+                            Learning. Creating. Innovating.
+                        </h3>
+
+                        <p>
+                            I am a Computer Science Engineering student
+                            interested in web development, programming,
+                            artificial intelligence, and data science.
+                        </p>
+
+                        <p>
+                            I enjoy transforming ideas into practical
+                            applications and learning new technologies
+                            through hands-on projects.
+                        </p>
+
+                        <p>
+                            My goal is to become a versatile developer who
+                            can design useful, accessible, and engaging
+                            digital experiences.
+                        </p>
+
+                        <div class="stats">
+
+                            <div class="stat">
+                                <strong>10+</strong>
+                                <span>Projects</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>5+</strong>
+                                <span>Technologies</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>100%</strong>
+                                <span>Curiosity</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section projects-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        My work
+                    </p>
+
+                    <h2>
+                        Projects
+                    </h2>
+
+                    <p>
+                        Explore some of my academic and personal projects.
+                    </p>
+
+                </div>
+
+
+                <!-- Project filters -->
+
+                <div
+                    class="filter-buttons"
+                    role="group"
+                    aria-label="Filter projects">
+
+                    <button
+                        type="button"
+                        class="filter-button active"
+                        data-filter="all">
+                        All
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-button"
+                        data-filter="web">
+                        Web
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-button"
+                        data-filter="python">
+                        Python
+                    </button>
+
+                    <button
+                        type="button"
+                        class="filter-button"
+                        data-filter="other">
+                        Other
+                    </button>
+
+                </div>
+
+
+                <!-- Project cards -->
+
+                <div class="projects-grid">
+
+
+                    <!-- Project 1 -->
+
+                    <article
+                        class="project-card"
+                        data-category="web">
+
+                        <figure>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=700&q=80"
+                                alt="Colourful user interface design representing a student web application">
+
+                            <figcaption>
+                                Student web application interface
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="project-content">
+
+                            <span class="project-tag">
+                                Web Development
+                            </span>
+
+                            <h3>
+                                Mindbloom
+                            </h3>
+
+                            <p>
+                                A student-focused web application concept
+                                featuring interactive dashboards and
+                                engaging digital experiences.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="project-button"
+                                data-title="Mindbloom"
+                                data-description="A student-focused web application concept designed with interactive dashboards, engaging visuals, and user-friendly features.">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article
+                        class="project-card"
+                        data-category="web">
+
+                        <figure>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=700&q=80"
+                                alt="Abstract colourful artwork representing a creative scratch art website">
+
+                            <figcaption>
+                                Creative digital artwork
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="project-content">
+
+                            <span class="project-tag">
+                                Web Development
+                            </span>
+
+                            <h3>
+                                Unveil
+                            </h3>
+
+                            <p>
+                                An interactive scratch-art website that
+                                reveals creative artwork through user
+                                interaction.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="project-button"
+                                data-title="Unveil"
+                                data-description="An interactive scratch-art web experience created using HTML, CSS and JavaScript.">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article
+                        class="project-card"
+                        data-category="python">
+
+                        <figure>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80"
+                                alt="Data analytics dashboard showing charts and graphs">
+
+                            <figcaption>
+                                Data analytics dashboard
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="project-content">
+
+                            <span class="project-tag">
+                                Python
+                            </span>
+
+                            <h3>
+                                Data Analysis Dashboard
+                            </h3>
+
+                            <p>
+                                A Python project focused on processing,
+                                analysing, and visualising data.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="project-button"
+                                data-title="Data Analysis Dashboard"
+                                data-description="A Python-based data analysis project using data processing, analysis, and visualization techniques.">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 4 -->
+
+                    <article
+                        class="project-card"
+                        data-category="other">
+
+                        <figure>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=700&q=80"
+                                alt="Books arranged on shelves inside a library">
+
+                            <figcaption>
+                                Library management project
+                            </figcaption>
+
+                        </figure>
+
+                        <div class="project-content">
+
+                            <span class="project-tag">
+                                Programming
+                            </span>
+
+                            <h3>
+                                Library Management System
+                            </h3>
+
+                            <p>
+                                A programming application for adding,
+                                removing, searching, borrowing, and
+                                returning books.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="project-button"
+                                data-title="Library Management System"
+                                data-description="A library management application featuring book storage, searching, borrowing limits, and checkout tracking.">
+                                Learn More
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        My abilities
+                    </p>
+
+                    <h2>
+                        Skills
+                    </h2>
+
+                </div>
+
+
+                <!-- Required ul/li structure -->
+
+                <ul class="skills-list">
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            🌐
+                        </span>
+
+                        <h3>
+                            HTML
+                        </h3>
+
+                        <p>
+                            Semantic and accessible web structure.
+                        </p>
+
+                    </li>
+
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            🎨
+                        </span>
+
+                        <h3>
+                            CSS
+                        </h3>
+
+                        <p>
+                            Responsive layouts and modern styling.
+                        </p>
+
+                    </li>
+
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            ⚡
+                        </span>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Interactive and dynamic websites.
+                        </p>
+
+                    </li>
+
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            🐍
+                        </span>
+
+                        <h3>
+                            Python
+                        </h3>
+
+                        <p>
+                            Programming and data analysis.
+                        </p>
+
+                    </li>
+
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            💻
+                        </span>
+
+                        <h3>
+                            C#
+                        </h3>
+
+                        <p>
+                            Object-oriented programming.
+                        </p>
+
+                    </li>
+
+
+                    <li class="skill-card">
+
+                        <span
+                            class="skill-icon"
+                            aria-hidden="true">
+                            📊
+                        </span>
+
+                        <h3>
+                            Data Science
+                        </h3>
+
+                        <p>
+                            Data processing and visualization.
+                        </p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Get in touch
+                    </p>
+
+                    <h2>
+                        Contact Me
+                    </h2>
+
+                    <p>
+                        Have a project idea? Send me a message.
+                    </p>
+
+                </div>
+
+
+                <form
+                    id="contactForm"
+                    class="contact-form"
+                    novalidate>
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name"
+                            required>
+
+                        <span
+                            id="nameError"
+                            class="error-message"
+                            role="alert">
+                        </span>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+
+                        <span
+                            id="emailError"
+                            class="error-message"
+                            role="alert">
+                        </span>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
+
+                        <span
+                            id="messageError"
+                            class="error-message"
+                            role="alert">
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="button primary-button submit-button">
+                        Send Message
+                    </button>
+
+                    <p
+                        id="formSuccess"
+                        class="success-message"
+                        role="status">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <h2>
+                    Sanvi<span>.</span>
+                </h2>
+
+                <p>
+                    Computer Science Engineering Student
+                </p>
+
+            </div>
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit GitHub">
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit LinkedIn">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+                &copy; 2026 Sanvi. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= PROJECT MODAL ================= -->
+
+    <div
+        id="projectModal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+        aria-hidden="true">
+
+        <div class="modal-content">
+
+            <button
+                type="button"
+                id="closeModal"
+                class="close-modal"
+                aria-label="Close project information">
+                &times;
+            </button>
+
+            <h2 id="modalTitle">
+                Project
+            </h2>
+
+            <p id="modalDescription">
+                Project information.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
